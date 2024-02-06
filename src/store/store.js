@@ -1,7 +1,7 @@
-import TodoReducer from "./reducer/todoreducer";
+import cartReducer from "./reducer/cart-reducer";
 
-import {createStore} from "redux";
+import { createStore } from "redux";
 
-let store=createStore(TodoReducer);
+let store=createStore(cartReducer)
 
-export default store;
+export default store
